@@ -18,7 +18,7 @@ namespace ROCKPAPERSCISSORS
 
 
 
-                while (playerScore < 3 && cpuScore < 3)
+                while (playerScore < 5 && cpuScore < 5)
                 {
                     Console.WriteLine("Choose between Rock, Paper or Scissor:       Player:" + playerScore + "     CPU:" + cpuScore);
                     pInput = Console.ReadLine();
